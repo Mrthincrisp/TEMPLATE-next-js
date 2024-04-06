@@ -17,6 +17,7 @@ function Home() {
       }}
     >
       <h1>Hello, {user.displayName}. </h1>
+      <h5>Do you need a counter or a joke?</h5>
     </div>
   );
 }
