@@ -11,7 +11,7 @@ export default function NavBarAuth() {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Link passHref href="/">
-          <Navbar.Brand>Count It</Navbar.Brand>
+          <Navbar.Brand>Counting Jokes</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -22,6 +22,9 @@ export default function NavBarAuth() {
             </Link>
             <Link passHref href="/counters">
               <Nav.Link>Counter</Nav.Link>
+            </Link>
+            <Link passHref href="/jokes">
+              <Nav.Link>Jokes</Nav.Link>
             </Link>
             <Button variant="danger" onClick={signOut}>Sign Out</Button>
           </Nav>
